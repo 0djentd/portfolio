@@ -19,7 +19,7 @@ export default {
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light">My personal projects</h1>
         <p class="lead text-muted">
-          Some open source pieces of software that worked on.
+          Some open source pieces of software i that worked on.
         </p>
       </div>
     </div>
