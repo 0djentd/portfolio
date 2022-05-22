@@ -15,7 +15,7 @@ export default {
             <a
               type="button"
               class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"
-              href="/#about-me"
+              href="./#about-me"
             >
               About me
             </a>
