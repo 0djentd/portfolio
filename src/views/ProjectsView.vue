@@ -1,7 +1,7 @@
 <script lang="ts">
 import AppProject from "../components/AppProject.vue";
 import ProjectTag from "../components/ProjectTag.vue";
-import { useProjectsStore } from "@/stores/projects";
+import { useProjectsStore } from "../stores/projects";
 
 export default {
   components: { AppProject, ProjectTag },

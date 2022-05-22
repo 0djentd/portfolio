@@ -2,7 +2,7 @@
 import { RouterLink } from "vue-router";
 export default {
   props: ["links"],
-  components: [RouterLink],
+  components: { RouterLink },
 };
 </script>
 <template>
