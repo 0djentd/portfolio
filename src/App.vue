@@ -1,4 +1,4 @@
-<script>
+<script type="ts">
 import { RouterView } from "vue-router";
 import AppFooter from "./components/AppFooter.vue";
 import AppNavbar from "./components/AppNavbar.vue";

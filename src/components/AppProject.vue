@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import ProjectTag from "./ProjectTag.vue";
 export default {
   props: ["project"],

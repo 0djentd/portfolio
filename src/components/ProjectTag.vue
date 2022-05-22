@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import { useProjectsStore } from "@/stores/projects";
 export default {
   data() {

@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { projects } from "../data.js";
+import { projects } from "../data.ts";
 
 export const useProjectsStore = defineStore({
   id: "projects",
