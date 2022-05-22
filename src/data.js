@@ -1,7 +1,8 @@
 export const projects = [
   {
     name: "EMTK",
-    description: "Blender addon used for efficient managing of modifiers.",
+    description:
+      "Blender addon, designed to simplify editing modifiers stack through modal operators and abstraction layers.",
     year: "2021-2022",
     image: "screenshot3.jpg",
     link_gh: "https://github.com/0djentd/emtk",
@@ -43,7 +44,8 @@ export const projects = [
   },
   {
     name: "modal_shortcuts",
-    description: "Keyboard shortcuts for modal operators in Blender",
+    description:
+      "Keyboard shortcuts and other utility for modal operators in Blender",
     year: "2021",
     image: "",
     link_gh: "https://github.com/0djentd/modal_shortcuts",
