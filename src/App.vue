@@ -7,10 +7,10 @@ export default {
   data() {
     return {
       links: [
-        ["/", "Home"],
-        ["/projects", "Projects"],
-        ["/contacts", "Contacts"],
-        ["/about", "About this website"],
+        { url: "/", name: "Home" },
+        { url: "/projects", name: "Projects" },
+        { url: "/contacts", name: "Contacts" },
+        { url: "/about", name: "About this website" },
       ],
     };
   },

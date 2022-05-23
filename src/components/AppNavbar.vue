@@ -1,7 +1,9 @@
 <script lang="ts">
 import { RouterLink } from "vue-router";
 export default {
-  props: ["links"],
+  props: {
+    links: Array,
+  },
   components: { RouterLink },
 };
 </script>
@@ -25,8 +27,8 @@ export default {
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item" v-for="link in links" :key="link[0]">
-            <RouterLink :to="link[0]" class="router-link">
-              {{ link[1] }}
+            <RouterLink :to="link.url" class="router-link">
+              {{ link.name }}
             </RouterLink>
           </li>
         </ul>
