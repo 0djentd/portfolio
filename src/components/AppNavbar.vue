@@ -32,15 +32,9 @@ export default {
             </RouterLink>
           </li>
         </ul>
-        <div class="d-flex" role="search">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Search projects"
-            aria-label="Search projects"
-          />
-          <button class="btn btn-outline-info" type="submit">>_</button>
-        </div>
+        <a class="btn btn-outline-info" href="https://github.com/0djentd"
+          >GitHub</a
+        >
       </div>
     </div>
   </nav>
