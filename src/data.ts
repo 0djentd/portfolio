@@ -89,13 +89,13 @@ export const projects = [
   },
   {
     name: "Portfolio",
-    description: "This one portfolio that you reading right now.",
+    description: "This website.",
     year: "2022",
     image: "",
     link_gh: "https://github.com/0djentd/portfolio",
-    link_site: "/",
+    link_site: "/portfolio/",
     link_yt: "",
     type: "website",
-    stack: ["vue", "html", "css", "js", "sass", "npm", "pinia"],
+    stack: ["vue", "html", "css", "js", "ts", "npm", "pinia"],
   },
 ];
