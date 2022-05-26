@@ -43,7 +43,8 @@ export default {
         @click="store.search_str = ''"
       ></button>
     </div>
-    <div class="card container mb-4 p-2">
+    <div class="card container mb-4 p-2 pb-0">
+      <span class="text-muted h6 mx-auto mb-0">Tags:</span>
       <p>
         <ProjectTag v-for="tag in store.tags" :key="tag" :tag="tag" />
       </p>
