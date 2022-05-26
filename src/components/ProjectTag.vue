@@ -1,5 +1,5 @@
 <script lang="ts">
-import { useProjectsStore } from "@/stores/projects";
+import { useProjectsStore } from "../stores/projects";
 export default {
   data() {
     const store = useProjectsStore();
