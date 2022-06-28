@@ -108,7 +108,7 @@ export const projects = [
     name: "class_variables_editor_ui",
     description: "UI for editing python's class variables in Blender",
     year: "2021",
-    image: "",
+    image: "screenshot_class_variables_editor_ui.png",
     link_gh: "https://github.com/0djentd/class_variables_editor_ui",
     link_site: "",
     link_yt: "",
