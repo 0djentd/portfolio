@@ -78,6 +78,8 @@ export default {
 
 <style lang="scss" scoped>
 div.portfolio-buttons {
+  margin-left: auto;
+  margin-right: auto;
   * {
     min-width: 200px;
     margin-left: auto;
