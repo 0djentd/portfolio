@@ -35,5 +35,4 @@ export const useProjectsStore = defineStore({
       return all_tags;
     },
   },
-  actions: {},
 });

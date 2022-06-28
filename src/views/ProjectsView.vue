@@ -6,9 +6,8 @@ import { useProjectsStore } from "../stores/projects";
 export default {
   components: { AppProject, ProjectTag },
   data() {
-    const store = useProjectsStore();
     return {
-      store: store,
+      store: useProjectsStore(),
     };
   },
 };

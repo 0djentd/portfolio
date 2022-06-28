@@ -7,7 +7,7 @@
         <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
           <h1 class="display-4 fw-bold lh-1">About this website</h1>
           <p class="lead">
-            This website was built using Vue, Pinia, Bootsrap and hosted on
+            This website was built using Vue 3, Pinia, Bootsrap 5 and hosted on
             GitHub Pages
           </p>
         </div>
