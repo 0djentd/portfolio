@@ -82,8 +82,6 @@ div.portfolio-buttons {
   margin-right: auto;
   * {
     min-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 </style>
