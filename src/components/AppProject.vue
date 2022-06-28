@@ -10,7 +10,7 @@ export default {
     <div class="card shadow-sm">
       <div class="img-container">
         <img
-          v-if="project.image != ''"
+          v-if="project.image"
           :src="project.image"
           alt="Project image"
           class="rounded img-fluid carg-img-top"
