@@ -53,7 +53,7 @@ export const messages = {
       web: {
         name: "Web",
         content:
-          "Django, DRF, Vue 2/3, Vuex, Pinia, Bootstrap 5, Vuetify, sass, TCP/IP basics",
+          "Django, DRF, Vue 2/3, Vuex, Pinia, Bootstrap 5, Vuetify, vue-i18n, sass, TCP/IP basics",
       },
       python: {
         name: "Python 3",
