@@ -33,6 +33,7 @@ export const messages = {
       title: "My personal projects",
       description: "Some open source pieces of software i that worked on.",
       search: "Search projects",
+      tags: "Tags",
       project: {
         site_link: "Site",
         source_code_link: "Source code",
@@ -72,8 +73,9 @@ export const messages = {
     },
     projects: {
       title: "Мои проекты",
-      description: "Some open source pieces of software i that worked on.",
+      description: "Некоторые из моих open source проектов.",
       search: "Поиск по проектам и тэгам",
+      tags: "Тэги",
       project: {
         site_link: "Сайт",
         source_code_link: "Исходный код",
