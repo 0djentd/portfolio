@@ -115,4 +115,15 @@ export const projects = [
     type: "library",
     stack: ["python", "ui", "blender", "oop", "regex"],
   },
+  {
+    name: "Other projects",
+    description: "My github repositories",
+    year: "2019-2022",
+    image: "",
+    link_gh: "https://github.com/0djentd?tab=repositories",
+    link_site: "",
+    link_yt: "",
+    type: "",
+    stack: ["python", "html", "js", "css", "vue", "oop", "api", "script", "logging", "regex"],
+  },
 ];
