@@ -2,15 +2,15 @@
 import { RouterLink } from "vue-router";
 import AppLanguageSwitcher from "./AppLanguageSwitcher.vue";
 export default {
-  data() {
-    return {
-      links: [
-        { url: "/", name: "Home" },
-        { url: "/projects", name: "Projects" },
-        { url: "/contacts", name: "Contacts" },
-        { url: "/about", name: "About this website" },
-      ],
-    };
+  computed: {
+    links() {
+      return [
+        { url: "/", name: this.$t("links.home") },
+        { url: "/projects", name: this.$t("links.projects") },
+        { url: "/contacts", name: this.$t("links.contacts") },
+        { url: "/about", name: this.$t("links.about") },
+      ];
+    },
   },
   components: { RouterLink, AppLanguageSwitcher },
 };

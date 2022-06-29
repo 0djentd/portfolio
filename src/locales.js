@@ -1,5 +1,11 @@
 export const messages = {
   en: {
+    links: {
+      home: "Home",
+      projects: "Portfolio",
+      contacts: "Contacts",
+      about: "About this website",
+    },
     buttons: {
       about_me: "About me",
       projects: "Portfolio",
@@ -71,6 +77,12 @@ export const messages = {
     },
   },
   ru: {
+    links: {
+      home: "Главная страница",
+      projects: "Портфолио",
+      contacts: "Контакты",
+      about: "Об этом сайте",
+    },
     buttons: {
       about_me: "Обо мне",
       projects: "Портфолио",
