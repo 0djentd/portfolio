@@ -43,7 +43,7 @@ export default {
       ></button>
     </div>
     <div class="card container mb-4 p-2 pb-0">
-      <span class="text-muted h6 mx-auto mb-0">Tags:</span>
+      <span class="text-muted h6 mx-auto mb-0">{{ $t("projects.tags") }}</span>
       <p>
         <ProjectTag v-for="tag in store.tags" :key="tag" :tag="tag" />
       </p>
