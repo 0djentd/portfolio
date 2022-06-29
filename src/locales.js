@@ -29,6 +29,16 @@ export const messages = {
     contacts: {
       title: "Contacts",
     },
+    projects: {
+      title: "My personal projects",
+      description: "Some open source pieces of software i that worked on.",
+      search: "Search projects",
+      project: {
+        site_link: "Site",
+        source_code_link: "Source code",
+        video_link: "Video",
+      },
+    },
   },
   ru: {
     buttons: {
@@ -59,6 +69,16 @@ export const messages = {
     },
     contacts: {
       title: "Контакты",
+    },
+    projects: {
+      title: "Мои проекты",
+      description: "Some open source pieces of software i that worked on.",
+      search: "Поиск по проектам и тэгам",
+      project: {
+        site_link: "Сайт",
+        source_code_link: "Исходный код",
+        video_link: "Видео",
+      },
     },
   },
 };

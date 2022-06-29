@@ -35,7 +35,7 @@ export default {
               type="button"
               class="btn btn-sm btn-outline-secondary"
             >
-              Site
+              {{ $t("projects.project.site_link") }}
             </a>
             <a
               v-if="project.link_gh != ''"
@@ -43,7 +43,7 @@ export default {
               type="button"
               class="btn btn-sm btn-outline-secondary"
             >
-              GitHub
+              {{ $t("projects.project.source_code_link") }}
             </a>
             <!-- TODO: vid on page -->
             <!-- TODO: component -->
@@ -53,7 +53,7 @@ export default {
               type="button"
               class="btn btn-sm btn-outline-secondary"
             >
-              YouTube
+              {{ $t("projects.project.video_link") }}
             </a>
           </div>
           <small class="text-muted">{{ project.year }}</small>

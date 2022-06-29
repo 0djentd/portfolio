@@ -52,15 +52,6 @@ export default {
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="feature col">
           <h2>
-            {{ $t("welcome.about.skills.title") }}
-          </h2>
-          <div v-for="skill in store.skills" :key="skill.id">
-            <h5>{{ skill.name }}</h5>
-            <p>{{ skill.description }}</p>
-          </div>
-        </div>
-        <div class="feature col">
-          <h2>
             {{ $t("welcome.about.projects.title") }}
           </h2>
           <p>
@@ -74,9 +65,18 @@ export default {
           </RouterLink>
         </div>
         <div class="feature col">
+          <h2>
+            {{ $t("welcome.about.skills.title") }}
+          </h2>
+          <div v-for="skill in store.skills" :key="skill.id">
+            <h5>{{ skill.name }}</h5>
+            <p>{{ skill.description }}</p>
+          </div>
+        </div>
+        <!--         <div class="feature col">
           <h2></h2>
           <p></p>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

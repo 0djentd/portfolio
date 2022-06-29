@@ -16,9 +16,9 @@ export default {
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">My personal projects</h1>
+        <h1 class="fw-light">{{ $t("projects.title") }}</h1>
         <p class="lead text-muted">
-          Some open source pieces of software i that worked on.
+          {{ $t("projects.description") }}
         </p>
       </div>
     </div>
@@ -32,7 +32,7 @@ export default {
       <input
         class="form-control me-2"
         type="search"
-        placeholder="Search projects"
+        :placeholder="$t('projects.search')"
         aria-label="Search projects"
         v-model="store.search_str"
       />
