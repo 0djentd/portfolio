@@ -24,7 +24,9 @@ export default {
   <AppFooter :year="2022" />
 </template>
 
-<style scoped>
+<style>
+@import "@/style.scss";
+
 div .pusher {
   height: 50px;
 }
