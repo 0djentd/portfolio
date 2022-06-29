@@ -1,13 +1,38 @@
 <script lang="ts">
 import { RouterLink } from "vue-router";
-import { useSkillsStore } from "../stores/skills";
 import AppLanguageSwitcher from "../components/AppLanguageSwitcher.vue";
+
 export default {
   components: { RouterLink, AppLanguageSwitcher },
-  data() {
-    return {
-      store: useSkillsStore(),
-    };
+  computed: {
+    skills() {
+      return [
+        {
+          name: this.$t("skills.general.name"),
+          content: this.$t("skills.general.content"),
+        },
+        {
+          name: this.$t("skills.web.name"),
+          content: this.$t("skills.web.content"),
+        },
+        {
+          name: this.$t("skills.python.name"),
+          content: this.$t("skills.python.content"),
+        },
+        {
+          name: this.$t("skills.virtualization.name"),
+          content: this.$t("skills.virtualization.content"),
+        },
+        {
+          name: this.$t("skills._3d.name"),
+          content: this.$t("skills._3d.content"),
+        },
+        {
+          name: this.$t("skills.languages.name"),
+          content: this.$t("skills.languages.content"),
+        },
+      ];
+    },
   },
 };
 </script>
@@ -72,9 +97,9 @@ export default {
           <h2>
             {{ $t("welcome.about.skills.title") }}
           </h2>
-          <div v-for="skill in store.skills" :key="skill.id">
+          <div v-for="skill in skills" :key="skill.id">
             <h5>{{ skill.name }}</h5>
-            <p>{{ skill.description }}</p>
+            <p>{{ skill.content }}</p>
           </div>
         </div>
         <!--         <div class="feature col">

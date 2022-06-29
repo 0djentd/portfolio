@@ -1,20 +1,3 @@
-export const skills = [
-  { name: "Languages", description: "Russian, English, Japanese" },
-  { name: "Development", description: "OOP, TDD, vim, vscode" },
-  { name: "Web", description: "Django, DRF, Vue 2/3, Vuex, Pinia, Bootstrap 5, Vuetify, sass." },
-  { name: "Python", description: "numpy, pandas, matplotlib" },
-  {
-    name: "General",
-    description:
-      "GNU/Linux (ubuntu, debian, fedora, arch), bash, libvirt, virt-manager, VirtualBox, Docker",
-  },
-  {
-    name: "3d",
-    description:
-      "Blender, AutoCAD, Unity3D render pipelines, PBR in general, hard-surface modelling, non-destructive modelling",
-  },
-];
-
 export const projects = [
   {
     name: "EMTK",

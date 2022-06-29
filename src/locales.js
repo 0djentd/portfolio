@@ -36,8 +36,37 @@ export const messages = {
       tags: "Tags",
       project: {
         site_link: "Site",
-        source_code_link: "Source code",
+        source_code_link: "GitHub",
         video_link: "Video",
+      },
+    },
+    skills: {
+      general: {
+        name: "General",
+        content:
+          "GNU/Linux (ubuntu, debian, fedora, arch), bash, git, vim, vscode, regex",
+      },
+      virtualization: {
+        name: "Virtualization",
+        content: "Docker, libvirt, virt-manager, VirtualBox",
+      },
+      web: {
+        name: "Web",
+        content:
+          "Django, DRF, Vue 2/3, Vuex, Pinia, Bootstrap 5, Vuetify, sass, TCP/IP basics",
+      },
+      python: {
+        name: "Python 3",
+        content: "numpy, pandas, matplotlib",
+      },
+      _3d: {
+        name: "3d",
+        content:
+          "Blender, AutoCAD, Unity3D render pipelines, PBR in general, hard-surface modelling, non-destructive modelling",
+      },
+      languages: {
+        name: "Languages",
+        content: "Russian, English, Japanese",
       },
     },
   },
@@ -78,8 +107,28 @@ export const messages = {
       tags: "Тэги",
       project: {
         site_link: "Сайт",
-        source_code_link: "Исходный код",
+        source_code_link: "GitHub",
         video_link: "Видео",
+      },
+    },
+    skills: {
+      general: {
+        name: "Общие",
+      },
+      web: {
+        name: "Веб-разработка",
+      },
+      virtualization: {
+        name: "Виртуализация",
+      },
+      _3d: {
+        name: "3D",
+        content:
+          "Blender, AutoCAD, Unity3D render pipelines, PBR в целом, hard-surface modelling, non-destructive modelling",
+      },
+      languages: {
+        name: "Языки",
+        content: "Русский, английский, японский",
       },
     },
   },
