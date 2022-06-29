@@ -1,10 +1,11 @@
 <script lang="ts">
 import { RouterLink } from "vue-router";
+import AppLanguageSwitcher from "./AppLanguageSwitcher.vue";
 export default {
   props: {
     links: Array,
   },
-  components: { RouterLink },
+  components: { RouterLink, AppLanguageSwitcher },
 };
 </script>
 <template>
@@ -32,6 +33,7 @@ export default {
             </RouterLink>
           </li>
         </ul>
+        <AppLanguageSwitcher class="navbar-lang" />
         <a class="btn btn-outline-info" href="https://github.com/0djentd"
           >GitHub</a
         >
@@ -40,13 +42,18 @@ export default {
   </nav>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .navbar {
   margin-bottom: 20px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
 .router-link {
   text-decoration: none;
   color: lightgray;
   margin: 0 4px;
+}
+.navbar-lang {
+  color: gray;
+  margin-right: 8px;
 }
 </style>
