@@ -1,8 +1,9 @@
 <script lang="ts">
 import { RouterLink } from "vue-router";
 import { useSkillsStore } from "../stores/skills";
+import AppLanguageSwitcher from "../components/AppLanguageSwitcher.vue";
 export default {
-  components: { RouterLink },
+  components: { RouterLink, AppLanguageSwitcher },
   data() {
     return {
       store: useSkillsStore(),
@@ -46,9 +47,12 @@ export default {
     </div>
 
     <div class="container px-4 py-5" id="featured-3">
-      <h2 class="pb-2 border-bottom" id="about-me">
-        {{ $t("welcome.about.title") }}
-      </h2>
+      <div class="d-flex">
+        <h2 class="pb-2 border-bottom w-100" id="about-me">
+          {{ $t("welcome.about.title") }}
+        </h2>
+        <AppLanguageSwitcher class="lang" />
+      </div>
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="feature col">
           <h2>
@@ -89,5 +93,8 @@ div.portfolio-buttons {
   * {
     min-width: 200px;
   }
+}
+.lang {
+  margin-left: 30px;
 }
 </style>
