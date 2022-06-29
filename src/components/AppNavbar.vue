@@ -11,7 +11,7 @@ export default {
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
       <RouterLink to="/" class="router-link">
-        <a class="navbar-brand" href="#">Sergey Shapochkin</a>
+        <a class="navbar-brand" href="#">{{ $t("welcome.name") }}</a>
       </RouterLink>
       <button
         class="navbar-toggler"
@@ -39,6 +39,7 @@ export default {
     </div>
   </nav>
 </template>
+
 <style>
 .navbar {
   margin-bottom: 20px;
