@@ -1,6 +1,8 @@
 <script lang="ts">
+import AppLanguageSwitcher from "../components/AppLanguageSwitcher.vue";
 export default {
   props: ["year"],
+  components: { AppLanguageSwitcher },
 };
 </script>
 <template>
@@ -37,6 +39,7 @@ export default {
           ></a>
         </li>
       </ul>
+      <AppLanguageSwitcher />
     </footer>
   </div>
 </template>

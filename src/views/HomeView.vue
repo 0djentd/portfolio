@@ -14,7 +14,7 @@ export default {
 <template>
   <div>
     <div class="bg-dark text-secondary px-4 py-5 text-center">
-      <div>
+      <div class="py-5">
         <h1 class="display-5 fw-bold text-white">{{ $t("welcome.name") }}</h1>
         <div class="col-lg-6 mx-auto">
           <p class="fs-5 mb-4">{{ $t("welcome.description") }}</p>
@@ -41,18 +41,6 @@ export default {
               {{ $t("buttons.contacts") }}
             </RouterLink>
           </div>
-        </div>
-        <div class="lang">
-          <span class="material-symbols-outlined"> language </span>
-          <select class="form-select" v-model="$i18n.locale">
-            <option
-              v-for="locale in $i18n.availableLocales"
-              :key="`locale-${locale}`"
-              :value="locale"
-            >
-              {{ locale }}
-            </option>
-          </select>
         </div>
       </div>
     </div>
@@ -100,19 +88,6 @@ div.portfolio-buttons {
   margin-right: auto;
   * {
     min-width: 200px;
-  }
-}
-div.lang {
-  margin-top: 40px;
-  display: flex;
-  justify-content: right;
-  span {
-    margin: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  select {
-    width: 80px;
   }
 }
 </style>
