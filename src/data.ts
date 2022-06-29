@@ -115,7 +115,9 @@ export const projects = [
     type: "library",
     stack: ["python", "ui", "blender", "oop", "regex"],
   },
-  {
+];
+
+export const other_projects = {
     name: "Other projects",
     description: "My github repositories",
     year: "2019-2022",
@@ -125,5 +127,4 @@ export const projects = [
     link_yt: "",
     type: "",
     stack: ["python", "html", "js", "css", "vue", "oop", "api", "script", "logging", "regex"],
-  },
-];
+};

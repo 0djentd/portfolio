@@ -2,8 +2,15 @@
 import { RouterLink } from "vue-router";
 import AppLanguageSwitcher from "./AppLanguageSwitcher.vue";
 export default {
-  props: {
-    links: Array,
+  data() {
+    return {
+      links: [
+        { url: "/", name: "Home" },
+        { url: "/projects", name: "Projects" },
+        { url: "/contacts", name: "Contacts" },
+        { url: "/about", name: "About this website" },
+      ],
+    };
   },
   components: { RouterLink, AppLanguageSwitcher },
 };
@@ -45,7 +52,7 @@ export default {
 <style lang="scss" scoped>
 .navbar {
   margin-bottom: 20px;
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.3);
 }
 .router-link {
   text-decoration: none;
