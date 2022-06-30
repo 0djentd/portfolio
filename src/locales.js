@@ -22,7 +22,7 @@ export const messages = {
         projects: {
           title: "Portfolio",
           description:
-            "Some web apps. Some addons and Python modules for Blender - 3d modelling suite. A lot of totally random scripts. ",
+            "Some websites, apps and REST APIs. A lot of pet-projects, random scripts and configs. Addons and Python modules for Blender (3d modelling suite).",
           link: "Take a look!",
         },
       },
@@ -99,7 +99,7 @@ export const messages = {
         projects: {
           title: "Портфолио",
           description:
-            "Несколько веб-приложений. Несколько аддонов и Python-модулей для Blender (софт для работы с 3D графикой). Много pet-проектов, различных скриптов и конфигов.",
+            "Несколько сайтов, веб-приложений и REST API. Pet-проекты, различные скрипты и конфиги. Аддоны и Python-модули для Blender (софт для работы с 3D графикой).",
           link: "Просмотреть",
         },
       },
