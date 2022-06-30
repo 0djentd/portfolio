@@ -1,4 +1,4 @@
-export const messages = {
+export default {
   en: {
     links: {
       home: "Home",
