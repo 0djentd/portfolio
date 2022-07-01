@@ -2,7 +2,7 @@
   <div>
     <div class="container my-5">
       <div class="contacts">
-        <h2 class="pb-2 border-bottom w-100" id="about-me">
+        <h2 id="about-me" class="pb-2 border-bottom w-100">
           {{ $t("contacts.title") }}
         </h2>
         <div>

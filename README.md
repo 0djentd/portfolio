@@ -5,6 +5,6 @@
 ## Description
 
 This is my personal portfolio.
-Built using Vue, Pinia and Bootstrap.
+Built using Vue 2, Vuex, Nuxt.js and Bootstrap.
 
 [Take a look](https://0djentd.github.io/portfolio/)

@@ -1,8 +1,8 @@
 <script lang="ts">
-import AppLanguageSwitcher from "../components/AppLanguageSwitcher.vue";
+import AppLanguageSwitcher from "@/components/AppLanguageSwitcher.vue";
 export default {
-  props: ["year"],
   components: { AppLanguageSwitcher },
+  props: {year: {type: Number, required: false, default: 2022}},
 };
 </script>
 <template>
