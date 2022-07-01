@@ -1,16 +1,31 @@
-<script lang="ts">
+<script>
 export default {
   props: { tag: { type: String, required: true } },
+  computed: {
+    active() {
+      return this.$store.state.searchStr.includes(this.tag)
+    },
+    tagClasses() {
+        let classes = ''
+        if (this.active) {
+            classes = 'btn btn-dark text-light'
+        } else {
+            classes = 'btn text-muted' 
+        }
+        return classes + ' pb-0 pt-0 px-1 m-0 mx-1'
+    }
+  },
   methods: {
-    search_tag() {
+    searchTag() {
       this.$store.commit("saveSearchStr", this.tag);
     },
   },
 };
 </script>
+
 <template>
-  <span class="text-muted btn pb-0 pt-0 m-0" @click="search_tag">
+  <button :class="tagClasses" @click="searchTag">
     {{ tag }}
-  </span>
+  </button>
 </template>
 <style scoped></style>
