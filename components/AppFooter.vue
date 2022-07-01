@@ -2,7 +2,7 @@
 import AppLanguageSwitcher from "@/components/AppLanguageSwitcher.vue";
 export default {
   components: { AppLanguageSwitcher },
-  props: {year: {type: Number, required: false, default: 2022}},
+  props: { year: { type: Number, required: false, default: 2022 } },
 };
 </script>
 <template>
@@ -20,7 +20,7 @@ export default {
           </svg>
         </a>
         <span class="mb-3 mb-md-0 text-muted"
-          >&copy; {{ this.year }}, Sergey Shapochkin</span
+          >&copy; {{ year }}, Sergey Shapochkin</span
         >
       </div>
 

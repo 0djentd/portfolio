@@ -6,7 +6,7 @@ export default {
   },
   mutations: {
     saveSearchStr(state, value) {
-      state.searchStr = value
-    }
-  }
+      state.searchStr = value;
+    },
+  },
 };

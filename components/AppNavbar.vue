@@ -1,24 +1,24 @@
 <script lang="ts">
-import AppLanguageSwitcher from '@/components/AppLanguageSwitcher.vue'
+import AppLanguageSwitcher from "@/components/AppLanguageSwitcher.vue";
 export default {
   components: { AppLanguageSwitcher },
   computed: {
     links() {
       return [
-        { url: '/', name: this.$t('links.home') },
-        { url: '/projects', name: this.$t('links.projects') },
-        { url: '/contacts', name: this.$t('links.contacts') },
-        { url: '/about', name: this.$t('links.about') },
-      ]
+        { url: "/", name: this.$t("links.home") },
+        { url: "/projects", name: this.$t("links.projects") },
+        { url: "/contacts", name: this.$t("links.contacts") },
+        { url: "/about", name: this.$t("links.about") },
+      ];
     },
   },
-}
+};
 </script>
 <template>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
       <nuxt-link to="/" class="nuxt-link">
-        <a class="navbar-brand" href="#">{{ $t('welcome.name') }}</a>
+        <a class="navbar-brand" href="#">{{ $t("welcome.name") }}</a>
       </nuxt-link>
       <button
         class="navbar-toggler"

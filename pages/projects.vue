@@ -1,15 +1,15 @@
 <script lang="ts">
-import AppProject from "@/components/AppProject.vue"
-import ProjectTag from "@/components/ProjectTag.vue"
+import AppProject from "@/components/AppProject.vue";
+import ProjectTag from "@/components/ProjectTag.vue";
 
 export default {
   components: { AppProject, ProjectTag },
   data() {
-    return { searchStrInput: "" }
+    return { searchStrInput: "" };
   },
   computed: {
     searchStr() {
-      return this.$store.state.searchStr
+      return this.$store.state.searchStr;
     },
     projects() {
       return [
@@ -122,7 +122,7 @@ export default {
           type: "library",
           stack: ["python", "ui", "blender", "oop", "regex"],
         },
-      ]
+      ];
     },
     otherProjects() {
       return {
@@ -146,43 +146,43 @@ export default {
           "logging",
           "regex",
         ],
-      }
+      };
     },
     tags() {
-      const allTags = []
+      const allTags = [];
       for (let i = 0; i < this.projects.length; i++) {
-        const projectTags = this.projects[i].stack
+        const projectTags = this.projects[i].stack;
         for (let x = 0; x < projectTags.length; x++) {
-          const tag = projectTags[x]
+          const tag = projectTags[x];
           if (!allTags.includes(tag)) {
-            allTags.push(tag)
+            allTags.push(tag);
           }
         }
       }
-      return allTags
+      return allTags;
     },
     search_projects() {
-      const searchStr = this.searchStr
-      let result = []
+      const searchStr = this.searchStr;
+      let result = [];
       if (searchStr.length === 0) {
-        result = this.projects
+        result = this.projects;
       } else {
         result = this.projects.filter(
           (val) =>
             val.name.includes(this.searchStr) ||
             val.stack.includes(this.searchStr) ||
             val.description.includes(this.searchStr)
-        )
+        );
       }
-      return result
+      return result;
     },
   },
   methods: {
     updateSearchStr(event) {
-      this.$store.commit("saveSearchStr", this.searchStrInput)
+      this.$store.commit("saveSearchStr", this.searchStrInput);
     },
   },
-}
+};
 </script>
 <template>
   <div>

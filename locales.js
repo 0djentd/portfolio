@@ -30,7 +30,7 @@ export default {
     about: {
       title: "About this website",
       description:
-        "This website was built using Vue 3, Pinia, Bootsrap 5, vue-i18n and hosted on GitHub Pages",
+        "This website was built using Vue 2, Vuex, Nuxt.js, Bootstrap, vue-i18n and hosted on GitHub Pages",
     },
     contacts: {
       title: "Contacts",
@@ -107,7 +107,7 @@ export default {
     about: {
       title: "Об этом сайте",
       description:
-        "Этот сайт был сделан с использованием Vue 3, Pinia, Bootsrap 5, vue-i18n и размещен на GitHub Pages.",
+        "Этот сайт был сделан с использованием Vue 2, Vuex, Nuxt.js, Bootsrap 5, vue-i18n и размещен на GitHub Pages.",
     },
     contacts: {
       title: "Контакты",
