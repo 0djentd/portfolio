@@ -230,7 +230,7 @@ export default {
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <AppProject
             v-for="project in search_projects"
-            :key="project.year"
+            :key="project.id"
             :project="project"
           />
           <AppProject :project="otherProjects" />
