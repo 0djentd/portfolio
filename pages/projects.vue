@@ -73,7 +73,7 @@ export default {
           year: "2022",
           image: "screenshot_portfolio.png",
           link_gh: "https://github.com/0djentd/portfolio",
-          link_site: "/portfolio/",
+          link_site: "https://0djentd.github.io/portfolio/",
           link_yt: "",
           type: "website",
           stack: ["vue", "html", "css", "js", "ts", "npm", "pinia"],
