@@ -1,7 +1,7 @@
 export default {
   en: {
     links: {
-      home: "Home",
+      home: "About me",
       projects: "Portfolio",
       contacts: "Contacts",
     },
@@ -85,7 +85,7 @@ export default {
   },
   ru: {
     links: {
-      home: "Главная страница",
+      home: "Обо мне",
       projects: "Портфолио",
       contacts: "Контакты",
     },

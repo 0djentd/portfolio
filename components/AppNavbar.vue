@@ -16,7 +16,7 @@ export default {
 <template>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <nuxt-link to="/" class="nuxt-link navbar-brand">
+      <nuxt-link to="/" class="nuxt-link navbar-brand mr-4">
         {{ $t("welcome.name") }}
       </nuxt-link>
       <button
@@ -31,8 +31,8 @@ export default {
         <span class="navbar-toggler-icon"></span>
       </button>
       <div id="navbarCollapse" class="collapse navbar-collapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li v-for="link in links" :key="link[0]" class="nav-item">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-md-1">
+          <li v-for="link in links" :key="link[0]" class="nav-item mr-md-2">
             <nuxt-link :to="link.url" class="nuxt-link">
               {{ link.name }}
             </nuxt-link>
