@@ -24,6 +24,10 @@ export default {
           type: "website",
           stack: [
             "vue",
+            "SPA",
+            "vuex",
+            "bootstrap",
+            "vuetify",
             "rest",
             "api",
             "html",
@@ -31,7 +35,7 @@ export default {
             "js",
             "sass",
             "npm",
-            "vuex",
+            "app", 
           ],
         },
         {
@@ -43,7 +47,7 @@ export default {
           link_site: "https://0djentd.pythonanywhere.com/",
           link_yt: "",
           type: "website",
-          stack: ["django", "rest", "api"],
+          stack: ["backend", "python", "django", "rest", "api", "DRF"],
         },
         {
           name: "Portfolio",
@@ -54,7 +58,7 @@ export default {
           link_site: "https://0djentd.github.io/portfolio/",
           link_yt: "",
           type: "website",
-          stack: ["vue", "html", "css", "js", "ts", "npm", "pinia"],
+          stack: ["vue", "SPA", "vuex", "nuxt", "app", "html", "css", "js", "npm", "bootstrap"],
         },
         {
           name: "EMTK",
@@ -123,8 +127,8 @@ export default {
     },
     otherProjects() {
       return {
-        name: "Other projects",
-        description: this.$t("other_projects_data"),
+        name: this.$t("other_projects_data.name"),
+        description: this.$t("other_projects_data.description"),
         year: "2019-2022",
         image: "",
         link_gh: "https://github.com/0djentd?tab=repositories",
@@ -133,13 +137,18 @@ export default {
         type: "",
         stack: [
           "python",
+          "backend",
+          "linux",
+          "SPA",
           "html",
           "js",
           "css",
           "vue",
           "oop",
           "api",
+          "app",
           "script",
+          "config",
           "logging",
           "regex",
         ],
