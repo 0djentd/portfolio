@@ -97,7 +97,9 @@ sw.*
 *.sw?
 
 .nuxt
-static
+portfolio
+_nuxt
+# static
 
 
 
