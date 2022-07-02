@@ -39,7 +39,7 @@ export default {
     <div class="card shadow-sm">
       <div v-if="project.image" class="img-container">
         <img
-          :src="'../' + project.image"
+          :src="'/portfolio/' + project.image"
           alt="Project image"
           class="rounded img-fluid carg-img-top"
         />
