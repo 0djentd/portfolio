@@ -4,7 +4,6 @@ export default {
       home: "Home",
       projects: "Portfolio",
       contacts: "Contacts",
-      about: "About this website",
     },
     buttons: {
       about_me: "About me",
@@ -26,11 +25,6 @@ export default {
           link: "Take a look!",
         },
       },
-    },
-    about: {
-      title: "About this website",
-      description:
-        "This website was built using Vue 2, Vuex, Nuxt.js, Bootstrap, vue-i18n and hosted on GitHub Pages",
     },
     contacts: {
       title: "Contacts",
@@ -78,7 +72,7 @@ export default {
     projects_data: {
       alprou: "Website for managing your routines.",
       alprou_backend: "Website for managing your routines. (backend)",
-      portfolio: "This website.",
+      portfolio: "This website was built using Vue 2, Vuex, Nuxt.js, Bootstrap, vue-i18n and hosted on GitHub Pages",
       emtk: "Blender addon, designed to simplify editing modifiers stack through modal operators and abstraction layers.",
       libemtk: "Python library for Blender, designed to bring new level of abstraction to modifiers stack.",
       modal_shortcuts: "Keyboard shortcuts and other utility for modal operators in Blender",
@@ -94,7 +88,6 @@ export default {
       home: "Главная страница",
       projects: "Портфолио",
       contacts: "Контакты",
-      about: "Об этом сайте",
     },
     buttons: {
       about_me: "Обо мне",
@@ -116,11 +109,6 @@ export default {
           link: "Просмотреть",
         },
       },
-    },
-    about: {
-      title: "Об этом сайте",
-      description:
-        "Этот сайт был сделан с использованием Vue 2, Vuex, Nuxt.js, Bootsrap 5, vue-i18n и размещен на GitHub Pages.",
     },
     contacts: {
       title: "Контакты",
@@ -159,7 +147,7 @@ export default {
     projects_data: {
         alprou: "Трекер привычек (веб-приложение + сервер). В качестве JavaScript-фреймворкa используется Vue 2/Vuex. Библиотеки компонентов: Vuetify, Bootstrap-vue.",
         alprou_backend: "Сервер Alprou. Django REST framwork и несколько других модулей для Django. БД MySQL.",
-        portfolio: "Этот сайт.",
+        portfolio: "Этот сайт был сделан с использованием Vue 2, Vuex, Nuxt.js, Bootsrap 5, vue-i18n и размещен на GitHub Pages.",
         emtk: "Аддон для Blender, разработан для того чтобы упростить редактирование стэка модификаторов с помощью модальных операторов и слоев абстракции.",
         libemtk: "Python-модуль для Blender. Сериализация/десериализация рекурсивных структур данных, множественное наследование/mixin-классы, кэширование и модульное тестирование.",
         modal_shortcuts: "Клавиатурные сокращения и другой функционал для модальных операторов в Blender.",

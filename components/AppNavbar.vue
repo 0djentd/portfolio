@@ -8,7 +8,6 @@ export default {
         { url: "/", name: this.$t("links.home") },
         { url: "/projects", name: this.$t("links.projects") },
         { url: "/contacts", name: this.$t("links.contacts") },
-        { url: "/about", name: this.$t("links.about") },
       ];
     },
   },
