@@ -17,8 +17,8 @@ export default {
 <template>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <nuxt-link to="/" class="nuxt-link">
-        <a class="navbar-brand" href="#">{{ $t("welcome.name") }}</a>
+      <nuxt-link to="/" class="nuxt-link navbar-brand">
+        {{ $t("welcome.name") }}
       </nuxt-link>
       <button
         class="navbar-toggler"
