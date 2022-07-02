@@ -1,9 +1,8 @@
 <script lang="ts">
-import { RouterLink } from "vue-router";
-import AppLanguageSwitcher from "../components/AppLanguageSwitcher.vue";
+import AppLanguageSwitcher from "@/components/AppLanguageSwitcher.vue";
 
 export default {
-  components: { RouterLink, AppLanguageSwitcher },
+  components: { AppLanguageSwitcher },
   computed: {
     skills() {
       return [
@@ -54,26 +53,20 @@ export default {
             >
               {{ $t("buttons.about_me") }}
             </a>
-            <RouterLink
-              to="/projects"
-              class="btn btn-outline-light btn-lg px-4"
-            >
+            <nuxt-link to="/projects" class="btn btn-outline-light btn-lg px-4">
               {{ $t("buttons.projects") }}
-            </RouterLink>
-            <RouterLink
-              to="/contacts"
-              class="btn btn-outline-light btn-lg px-4"
-            >
+            </nuxt-link>
+            <nuxt-link to="/contacts" class="btn btn-outline-light btn-lg px-4">
               {{ $t("buttons.contacts") }}
-            </RouterLink>
+            </nuxt-link>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container px-4 py-5" id="featured-3">
+    <div id="featured-3" class="container px-4 py-5">
       <div class="d-flex">
-        <h2 class="pb-2 border-bottom w-100" id="about-me">
+        <h2 id="about-me" class="pb-2 border-bottom w-100">
           {{ $t("welcome.about.title") }}
         </h2>
         <AppLanguageSwitcher class="lang" />
@@ -86,12 +79,12 @@ export default {
           <p>
             {{ $t("welcome.about.projects.description") }}
           </p>
-          <RouterLink
+          <nuxt-link
             to="/projects"
             class="icon-link d-inline-flex align-items-center"
           >
             {{ $t("welcome.about.projects.link") }}
-          </RouterLink>
+          </nuxt-link>
         </div>
         <div class="feature col">
           <h2>

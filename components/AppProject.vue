@@ -1,17 +1,45 @@
 <script lang="ts">
-import ProjectTag from "./ProjectTag.vue";
+import ProjectTag from "@/components/ProjectTag.vue";
 export default {
-  props: ["project"],
   components: { ProjectTag },
+  props: {
+    project: {
+      type: Object,
+      required: true,
+      default: () => {
+        return {
+          name: "EMTK",
+          description:
+            "Blender addon, designed to simplify editing modifiers stack through modal operators and abstraction layers.",
+          year: "2021-2022",
+          image: "screenshot_emtk.jpg",
+          link_gh: "https://github.com/0djentd/emtk",
+          link_site: "",
+          link_yt: "",
+          type: "addon",
+          stack: [
+            "python",
+            "blender",
+            "json",
+            "oop",
+            "ui",
+            "3d",
+            "logging",
+            "regex",
+            "libemtk",
+          ],
+        };
+      },
+    },
+  },
 };
 </script>
 <template>
-  <div class="col">
+  <div v-if="project" class="col">
     <div class="card shadow-sm">
-      <div class="img-container">
+      <div v-if="project.image" class="img-container">
         <img
-          v-if="project.image"
-          :src="project.image"
+          :src="'../' + project.image"
           alt="Project image"
           class="rounded img-fluid carg-img-top"
         />
