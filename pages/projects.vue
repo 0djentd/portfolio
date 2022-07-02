@@ -14,28 +14,6 @@ export default {
     projects() {
       return [
         {
-          name: "EMTK",
-          description:
-            "Blender addon, designed to simplify editing modifiers stack through modal operators and abstraction layers.",
-          year: "2021-2022",
-          image: "screenshot_emtk.jpg",
-          link_gh: "https://github.com/0djentd/emtk",
-          link_site: "",
-          link_yt: "",
-          type: "addon",
-          stack: [
-            "python",
-            "blender",
-            "json",
-            "oop",
-            "ui",
-            "3d",
-            "logging",
-            "regex",
-            "libemtk",
-          ],
-        },
-        {
           name: "Alprou",
           description: "Website for managing your routines.",
           year: "2022",
@@ -77,6 +55,28 @@ export default {
           link_yt: "",
           type: "website",
           stack: ["vue", "html", "css", "js", "ts", "npm", "pinia"],
+        },
+        {
+          name: "EMTK",
+          description:
+            "Blender addon, designed to simplify editing modifiers stack through modal operators and abstraction layers.",
+          year: "2021-2022",
+          image: "screenshot_emtk.jpg",
+          link_gh: "https://github.com/0djentd/emtk",
+          link_site: "",
+          link_yt: "",
+          type: "addon",
+          stack: [
+            "python",
+            "blender",
+            "json",
+            "oop",
+            "ui",
+            "3d",
+            "logging",
+            "regex",
+            "libemtk",
+          ],
         },
         {
           name: "libemtk",
