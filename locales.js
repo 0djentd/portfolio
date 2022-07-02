@@ -84,6 +84,10 @@ export default {
       modal_shortcuts: "Keyboard shortcuts and other utility for modal operators in Blender",
       class_variables_editor_ui: "UI for editing python's class variables in Blender",
     },
+    other_projects_data: {
+        name: "Other projects",
+        description: "My GitHub repositories."
+    },
   },
   ru: {
     links: {
@@ -151,6 +155,19 @@ export default {
         name: "Языки",
         content: "Русский, английский, японский",
       },
+    },
+    projects_data: {
+    //    alprou: "Website for managing your routines.",
+    //    alprou_backend: "Website for managing your routines. (backend)",
+    //    portfolio: "This website.",
+    //    emtk: "Blender addon, designed to simplify editing modifiers stack through modal operators and abstraction layers.",
+    //    libemtk: "Python library for Blender, designed to bring new level of abstraction to modifiers stack.",
+    //    modal_shortcuts: "Keyboard shortcuts and other utility for modal operators in Blender",
+    //    class_variables_editor_ui: "UI for editing python's class variables in Blender",
+    },
+    other_projects_data: {
+        name: "Другие проекты",
+        description: "Мои репозитории на GitHub."
     },
   },
 };
