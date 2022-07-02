@@ -88,3 +88,16 @@ sw.*
 
 # Vim swap files
 *.swp
+
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.nuxt
+static
+
+
+
