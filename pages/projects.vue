@@ -15,7 +15,7 @@ export default {
       return [
         {
           name: "Alprou",
-          description: "Website for managing your routines.",
+          description: this.$t("projects_data.alprou"),
           year: "2022",
           image: "screenshot_alprou.png",
           link_gh: "https://github.com/0djentd/alprou",
@@ -36,7 +36,7 @@ export default {
         },
         {
           name: "Alprou (backend)",
-          description: "Website for managing your routines. (backend)",
+          description: this.$t("projects_data.alprou_backend"),
           year: "2022",
           image: "screenshot_alprou_backend.png",
           link_gh: "https://github.com/0djentd/alprou-backend",
@@ -47,7 +47,7 @@ export default {
         },
         {
           name: "Portfolio",
-          description: "This website.",
+          description: this.$t("projects_data.portfolio"),
           year: "2022",
           image: "screenshot_portfolio.png",
           link_gh: "https://github.com/0djentd/portfolio",
@@ -58,8 +58,7 @@ export default {
         },
         {
           name: "EMTK",
-          description:
-            "Blender addon, designed to simplify editing modifiers stack through modal operators and abstraction layers.",
+          description: this.$t("projects_data.emtk"),
           year: "2021-2022",
           image: "screenshot_emtk.jpg",
           link_gh: "https://github.com/0djentd/emtk",
@@ -80,8 +79,7 @@ export default {
         },
         {
           name: "libemtk",
-          description:
-            "Python library for Blender, designed to bring new level of abstraction to modifiers stack.",
+          description: this.$t("projects_data.libemtk"),
           year: "2021",
           image: "screenshot_libemtk.png",
           link_gh: "https://github.com/0djentd/libemtk",
@@ -101,8 +99,7 @@ export default {
         },
         {
           name: "modal_shortcuts",
-          description:
-            "Keyboard shortcuts and other utility for modal operators in Blender",
+          description: this.$t("projects_data.modal_shortcuts"),
           year: "2021",
           image: "",
           link_gh: "https://github.com/0djentd/modal_shortcuts",
@@ -113,7 +110,7 @@ export default {
         },
         {
           name: "class_variables_editor_ui",
-          description: "UI for editing python's class variables in Blender",
+          description: this.$t("projects_data.class_variables_editor_ui"),
           year: "2021",
           image: "screenshot_class_variables_editor_ui.png",
           link_gh: "https://github.com/0djentd/class_variables_editor_ui",
@@ -127,7 +124,7 @@ export default {
     otherProjects() {
       return {
         name: "Other projects",
-        description: "My github repositories",
+        description: this.$t("other_projects_data"),
         year: "2019-2022",
         image: "",
         link_gh: "https://github.com/0djentd?tab=repositories",

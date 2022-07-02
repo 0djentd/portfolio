@@ -75,6 +75,15 @@ export default {
         content: "Russian, English, Japanese",
       },
     },
+    projects_data: {
+      alprou: "Website for managing your routines.",
+      alprou_backend: "Website for managing your routines. (backend)",
+      portfolio: "This website.",
+      emtk: "Blender addon, designed to simplify editing modifiers stack through modal operators and abstraction layers.",
+      libemtk: "Python library for Blender, designed to bring new level of abstraction to modifiers stack.",
+      modal_shortcuts: "Keyboard shortcuts and other utility for modal operators in Blender",
+      class_variables_editor_ui: "UI for editing python's class variables in Blender",
+    },
   },
   ru: {
     links: {
