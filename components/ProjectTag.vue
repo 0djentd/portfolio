@@ -12,7 +12,7 @@ export default {
         } else {
             classes = 'btn text-muted' 
         }
-        return classes + ' pb-0 pt-0 px-1 m-0 mx-1'
+        return classes + ' py-0 px-1 my-0 mx-1'
     }
   },
   methods: {
