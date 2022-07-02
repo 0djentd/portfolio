@@ -3,7 +3,7 @@ export default {
   computed: {
     searchStr: {
       set(value) {
-        this.$store.commit("saveSearchStr", this.searchStrInput);
+        this.$store.commit("saveSearchStr", value);
       },
       get() {
         return this.$store.state.searchStr;
