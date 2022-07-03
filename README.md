@@ -1,7 +1,7 @@
 [![pages-build-deployment](https://github.com/0djentd/portfolio/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/0djentd/portfolio/actions/workflows/pages/pages-build-deployment)
 [![Node.js CI](https://github.com/0djentd/portfolio/actions/workflows/node.js.yml/badge.svg)](https://github.com/0djentd/portfolio/actions/workflows/node.js.yml)
 
-![screenshot](public/screenshot_portfolio.png)
+![screenshot](static/screenshot_portfolio.png)
 
 ## Description
 
