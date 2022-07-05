@@ -48,13 +48,13 @@ export default {
         <h4 class="card-title">
           {{ project.name }}
         </h4>
-        <p class="card-text">
-          {{ project.description }}
-        </p>
-        <p class="card-text text-muted">
-          <!-- TODO: clickable -->
-          <ProjectTag v-for="item in project.stack" :key="item" :tag="item" />
-        </p>
+        <div class="card-text">
+          <p>{{ project.description }}</p>
+          <p class="text-muted">
+            <!-- TODO: clickable -->
+            <ProjectTag v-for="item in project.stack" :key="item" :tag="item" />
+          </p>
+        </div>
         <div class="d-flex justify-content-between align-items-center">
           <div class="btn-group">
             <a
@@ -102,5 +102,10 @@ div .img-container {
 }
 img .card-img-top {
   height: 200px;
+}
+@media (min-width: 1200px) {
+  .card-text {
+    height: 250px;
+  }
 }
 </style>
