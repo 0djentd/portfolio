@@ -118,6 +118,17 @@ export default {
           stack: ["backend", "python", "django", "rest", "api", "DRF", "auth", "SQL"],
         },
         {
+          name: "timetable-app",
+          description: this.$t("projects_data.timetable_app"),
+          year: "2022",
+          image: "screenshot_timetable_app.png",
+          link_gh: "https://github.com/0djentd/timetable-app",
+          link_site: "https://0djentd.github.io/timetable-app/",
+          link_yt: "",
+          type: "website",
+          stack: ["vue", "SPA", "vuex", "vuetify", "app", "html", "css", "js", "npm"],
+        },
+        {
           name: "Portfolio",
           description: this.$t("projects_data.portfolio"),
           year: "2022",

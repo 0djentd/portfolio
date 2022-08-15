@@ -72,6 +72,7 @@ export default {
     projects_data: {
       alprou: "Website for managing your routines.",
       alprou_backend: "Website for managing your routines. (backend)",
+      timetable_app: "Simple timetable app. This website was built using Vue 2, Vuex, Vuetify and hosted on GitHub Pages",
       portfolio: "This website was built using Vue 2, Vuex, Nuxt.js, Bootstrap, vue-i18n and hosted on GitHub Pages",
       emtk: "Blender addon, designed to simplify editing modifiers stack through modal operators and abstraction layers.",
       libemtk: "Python library for Blender, designed to bring new level of abstraction to modifiers stack.",
@@ -147,6 +148,7 @@ export default {
     projects_data: {
         alprou: "Трекер привычек (веб-приложение + сервер). В качестве JavaScript-фреймворкa используется Vue 2/Vuex. Библиотеки компонентов: Vuetify, Bootstrap-vue.",
         alprou_backend: "Сервер Alprou. Django REST framwork и несколько других модулей для Django. БД MySQL.",
+        timetable_app: "Этот сайт был сделан с использованием Vue 2, Vuex, Vuetify и размещен на GitHub Pages.",
         portfolio: "Этот сайт был сделан с использованием Vue 2, Vuex, Nuxt.js, Bootsrap 5, vue-i18n и размещен на GitHub Pages.",
         emtk: "Аддон для Blender, разработан для того чтобы упростить редактирование стэка модификаторов с помощью модальных операторов и слоев абстракции.",
         libemtk: "Python-модуль для Blender. Сериализация/десериализация рекурсивных структур данных, множественное наследование/mixin-классы, кэширование и модульное тестирование.",
