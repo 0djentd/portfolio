@@ -95,10 +95,12 @@ export default {
             <p>{{ skill.content }}</p>
           </div>
         </div>
-        <!--         <div class="feature col">
-          <h2></h2>
-          <p></p>
-        </div> -->
+        <div class="feature col">
+          <img
+            src="/portfolio/portfolio_photo.jpg"
+            class="rounded img-fluid carg-img-top"
+          />
+        </div>
       </div>
     </div>
   </div>
